@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="UserCreateServlet" method="POST">
+            <h1>Create user</h1>
+            First Name : <input type="text" name="fname" value="" /><br>
+            Last Name : <input type="text" name="lname" value="" /><br>
+            City : <input type="text" name="city" value="" /><br>
+            <button type="submit">Create</button>
+        </form>
+        <br><br>    
+
+        <form action="UserUpdateServlet" method="POST">
+            <h1>Update user</h1>
+            Id : <input type="text" name="id" value="" /><br>
+            First Name : <input type="text" name="fname" value="" /><br>
+            Last Name : <input type="text" name="lname" value="" /><br>
+            City : <input type="text" name="city" value="" /><br>
+            <button type="submit">Create</button>
+        </form>
+        <br><br>  
+
+
+        <form action="UserDeleteServlet" method="POST">
+            <h1>Delete user</h1>
+            Id : <input type="text" name="id" value="" /><br>
+            <button type="submit">Delete</button>
+        </form>
+        <br><br> 
+
+
+        <form action="UserReadServlet" method="GET">
+            <h1>Read user</h1>
+            Id : <input type="text" name="id" value="" /><br>
+            <button type="submit">Read</button>
+        </form>
+        <br><br> 
+        
+         <form action="UsersReadServlet" method="GET">
+            <h1>Read all users</h1>
+            <button type="submit">Read</button>
+        </form>
+        <br><br> 
+        
+        
+    </body>
+</html>
